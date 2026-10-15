@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <title>Feliz Cumpleaños</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="mobile.css"
+      media="only screen and (max-width: 768px)"
+    />
+  </head>
+  <body>
+    <!--Confeti Atras-->
+    <canvas id="canvas1"></canvas>
+
+    <div class="contenedor">
+      <!-- PortaRetrato -->
+      <div class="portaretrato-torta-caja">
+        <div class="portaretrato">
+          <div class="marco">
+            <img src="recursos/WhatsApp Image 2026-10-15 at 3.37.00 PM.jpeg" alt="Foto" />
+          </div>
+          <div class="soporte-marco"></div>
+        </div>
+
+        <!--Torta De Cumpleaños-->
+        <div class="torta-cumpleaños">
+          <div class="torta">
+            <div class="chocolate"></div>
+          </div>
+          <div class="vela"></div>
+          <div class="llama"></div>
+        </div>
+
+        <!--Caja De Regalo-->
+        <div class="caja-wrapper">
+          <div class="caja">
+            <div class="cinta-de-regalo">
+              <div class="cinta-de-regalo-izquierda"></div>
+              <div class="cinta-de-regalo-derecha"></div>
+              <div class="cinta-de-regalo-centro"></div>
+            </div>
+            <div class="regalos">
+              <div class="regalo-sombra"></div>
+            </div>
+            <div class="regalo"></div>
+            <div class="icono-estrella estrella1"></div>
+            <div class="icono-estrella estrella2"></div>
+            <div class="icono-estrella estrella3"></div>
+            <div class="icono-estrella estrella4"></div>
+            <div class="icono-estrella estrella5"></div>
+          </div>
+        </div>
+
+        <!--Mensaje Feliz Cumpleaños-->
+        <div class="happy-birthday">Happy Birthday</div>
+      </div>
+
+      <!--Mesa-->
+      <div class="soporte"></div>
+    </div>
+
+    <!-- Carta Modal -->
+    <div class="modal-carta" id="modalCarta">
+      <div class="contenido-carta">
+        <div class="carta">
+          <h2>Querida Eridayeli </h2>
+          <p>
+            💕🎂 Feliz cumpleaños a mi hermana de otra sangre, esa personita que la vida puso en mi camino y que se ha convertido en alguien demasiado especial para mí. ❤️ Hoy celebro tu vida y le doy gracias a Dios por permitirme coincidir contigo, porque personas como tú no se encuentran todos los días. <br>
+
+            Deseo de todo corazón que este nuevo año de vida te traiga muchísima felicidad, amor sincero, salud y miles de bendiciones. Que Dios te cuide siempre, te abra puertas bonitas y te permita cumplir cada uno de tus sueños. Nunca dejes de brillar ni de ser esa persona tan especial que eres. 💗 <br>
+
+            Quiero que sepas que aquí tienes a alguien que te quiere de verdad, que desea verte feliz y que siempre va a celebrar tus logros como si fueran propios. Porque para mí no eres una amiga más, eres una hermana que escogí con el corazón, una de esas personas que llegan a tu vida y dejan una huella bonita que nadie puede borrar. <br>
+               <br>
+            La sangre no nos hace hermanos, el cariño, la confianza y los momentos compartidos sí. Y yo me siento muy feliz de tenerte en mi vida. 💘 <br>
+
+            Disfruta muchísimo tu día, mi niña. Que hoy te sobren las sonrisas, los abrazos, el amor y las razones para ser feliz. ¡Te mereces todo lo bonito del mundo! Feliz cumpleaños, mi hermana de otra sangre. Te quiero muchísimo. 🎂🎉💐💕 
+          </p>
+          <p class="firma">Con cariño,<br />Tu Hermanito</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Confeti Delante-->
+    <canvas id="canvas2"></canvas>
+
+    <!--Todo Oscuro-->
+    <audio id="soplido" src="recursos/soplar1.mp3" preload="auto"></audio>
+    <audio
+      id="cancion"
+      src="recursos/cancion.mp3"
+      preload="auto"
+    ></audio>
+    <div class="overlay"></div>
+
+    <script src="Confeti.js"></script>
+    <script src="Confeti2.js"></script>
+    <script src="Sorpresa.js"></script>
+  </body>
+</html>
+
+
